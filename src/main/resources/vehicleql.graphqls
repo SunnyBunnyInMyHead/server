@@ -21,6 +21,8 @@ type Mutation {
     createUser(name: String!, age: Int!):User
 }
 
-
+type Subscription {
+    randomUser(symbol: String): User
+}
 
 
